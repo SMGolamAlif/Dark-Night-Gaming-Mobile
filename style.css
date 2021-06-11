@@ -1,0 +1,494 @@
+@font-face{
+   src: url(EvilEmpire-4BBVK.ttf);
+   font-family: EvilEmpire;
+   
+}
+@font-face{
+   src: url(ZebulonBold-734l.ttf);
+   font-family: ZebulonBold;
+   
+}
+@font-face{
+   src: url(GrandGalaxy-Rpopl.otf);
+   font-family: GrandGalaxy;
+   
+}
+@font-face{
+   src: url(ZebulonCondensed-dja6.ttf);
+   font-family: ZebulonCondensed;
+   
+}
+@font-face{
+   src: url(ZebulonCondensedHollow-XD7o.ttf);
+  font-family:ZebulonCondensedHollow;
+   
+}
+@font-face{
+   src: url(PoeRedcoatNew-Y5Ro.ttf);
+   font-family:PoeRedcoatNew;
+   
+}
+@font-face{
+   src: url(PoeRedcoatNewBold-rJZ7.ttf);
+   font-family:PoeRedcoatNewBold;
+   
+}
+@font-face{
+   src: url(FrostbiteBossFight-dL0Z.ttf);
+   font-family:FrostbiteBossFight;
+   
+}
+@font-face{
+   src: url(Moonhouse-yE5M.ttf);
+   font-family:Moonhouse;
+   
+}
+img{
+  pointer-events: none;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.bgimage{
+    background-image: url('Wal.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.menu{
+   height: 80px;
+   width: 100%;
+   background-color: rgba(0,0,0,0.5)
+}
+.leftmenu{
+   width: 30%;
+   line-height: 100px;
+   float: left;
+   
+}
+.leftmenu h4{
+   padding-left: 70px;
+   font-weight: bold;
+   color: white;
+   font-size: 30px;
+   letter-spacing: 4px;
+   word-spacing: 8px;
+   font-family: EvilEmpire;
+  
+}
+.rightmenu{
+   width: 70%;
+   height: 100px;
+   float: right;
+   
+}
+.rightmenu ul{
+   margin-left: 150px;
+}
+.rightmenu ul li {
+   font-family:FrostbiteBossFight;
+   word-spacing: 5px;
+   letter-spacing: 2px;
+   display: inline-block;
+   list-style: none;
+   font-size: 18px;
+   color: white;
+   font-weight: bold;
+   line-height: 100px;
+   margin-left: 25px;
+   text-transform: uppercase;
+   cursor: pointer;
+   float: left;
+   padding-right: 10px;
+}
+.rightmenu ul li:hover,
+.rightmenu ul li:active{
+   color: orange;
+   cursor:pointer;
+}
+.text{
+   width: 100%;
+   margin-top: 185px;
+   text-transform: uppercase;
+   text-align: center;
+   color: white;
+ 
+}
+.text h4{
+   font-size: 20px;
+   font-family: Moonhouse;
+   letter-spacing: 2px;
+   word-spacing: 5px;
+}
+.text h1{
+   font-size: 55px;
+   font-family: ZebulonBold;
+   letter-spacing: 2px;
+   font-weight: 700px;
+   margin: 14px 0px;
+}
+.text h3{
+   font-size: 15px;
+   font-family: GrandGalaxy;
+   padding-bottom: 20px;
+   letter-spacing: 3px;
+   word-spacing: 8px;
+}
+
+#btn,
+#btn1{
+   background-color: transparent;
+   position: relative;
+   display: inline-block;
+   padding: 15px 15px;
+   color: #2196f3;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-decoration: none;
+   font-size: 24px;
+   overflow: hidden;
+   transition: 0.2s;
+   border: 3px solid white;
+   cursor: pointer;
+   margin-left: 10px;
+   font-family: ZebulonBold;
+   
+}
+#btn:hover,
+#btn1:hover{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80 #2196f3;
+   transition-delay: 0.5s;
+   cursor: pointer;
+   font-family: ZebulonBold;
+}
+.paragraph{
+   background-image: url('Wal2.jpg');
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   padding: 50px;
+}
+.ptag{
+   font-size: 30px;
+   text-align: center;
+   color: white;
+   background-color: rgba(0,0,0,1.0);
+   font-family: ZebulonCondensed;
+  
+}
+.comment{
+   background-image: url('Comment.jpg');
+   background-size: 100% 100% ;
+   height: 100%;
+   width: auto;
+   font-size: 30px;
+   font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  color: white;
+  
+   
+   
+}
+.comment input{
+   background: transparent;
+   width: 50%;
+   height: 30px;
+   margin-bottom: 20px;
+   border: 4px solid white;
+   font-size: 15px;
+   padding-left: 10px;
+   border-radius: 10px;
+   color: white;
+}
+.comment textarea{
+   background: transparent;
+   width: 50%;
+   height: 150px;
+   padding: 15px 20px;
+   margin-bottom: 10px;
+   border-radius: 10px;
+   border: 4px solid white;
+   font-size: 18px;
+   color: white;
+}
+.comment button{
+   background-color: transparent;
+   position: relative;
+   display: inline-block;
+   padding: 15px 15px;
+   color: white;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-decoration: none;
+   font-size: 15px;
+   overflow: hidden;
+   transition: 0.2s;
+   border: 3px solid white;
+   cursor: pointer;
+   border-radius: 0.5px;
+   
+}
+.comment button:hover{
+     color: white;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80 #2196f3;
+   transition-delay: 0.5s;
+   cursor: pointer;
+   border-radius: 0.5px;
+}
+.comment_line{
+   color: white;
+}
+
+
+
+
+.footer{
+   position: absolute;
+   
+   left: 0;
+   right: 0;
+   background-color: #111;
+   height: auto;
+   width: auto;
+   font-family: open sans;
+   padding-top: 40px;
+   color: white;
+   padding: 10px;
+   
+}
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   padding: 10px;
+}
+.footer-content h3{
+   font-size: 2rem;
+   font-weight: 400;
+   text-transform: capitalize;
+   line-height: 3rem;
+   padding: 10px;
+   
+   
+}
+.footer-content p{
+   max-width: px;
+   margin: 10px auto;
+   line-height: 28px;
+   font-size: 16px;
+   padding: 10px;
+   
+}
+
+.social{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0.3rem 0;
+   
+}
+.social li{
+   margin: 0 10px;
+   
+}
+.social a {
+   text-decoration: none;
+   color: white;
+}
+.social a i{
+   font-size: 2rem;
+   
+}
+.social a:hover i {
+   color: orange;
+   
+}
+.footer-bottom {
+   background: #000;
+   width: auto;
+   text-align: center;
+   
+}
+.footer-bottom p {
+   font-size: 14px;
+   word-spacing: 2px;
+   text-transform: capitalize;
+   
+}
+.footer-bottom span {
+   text-transform: uppercase;
+   opacity: 0.4;
+   font-weight: 200;
+}
+
+
+
+  .container{
+     display: flex;
+     background-image: url('Cart-wal2.jpg');
+     padding-left: 50px;
+     padding-bottom: 20px;
+     padding-top: 20px;
+     
+     
+  }
+  .card{
+     background: transparent;
+     width: 270px;
+     height: 550px;
+     margin: 10px;
+     border: 3px solid white;
+    
+  }
+  .cars-image{
+     
+     height: 150px;
+     margin-bottom: 15px;
+     
+     
+  }
+
+  .card-image{
+     width: 265px;
+     height: auto;
+  }
+  
+ .card-btn{
+   background-color: transparent;
+   position: relative;
+   display: inline-block;
+   padding: 15px 15px;
+   color: #2196f3;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   text-decoration: none;
+   font-size: 15px;
+   overflow: hidden;
+   transition: 0.2s;
+   border: 3px solid white;
+   cursor: pointer;
+   font-family: PoeRedcoatNewBold;
+}
+.card-btn:hover{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80 #2196f3;
+   transition-delay: 0.5s;
+   cursor: pointer;
+   font-family: PoeRedcoatNewBold;
+}
+.card-btn-div{
+   padding-left: 20px;
+}
+.card-p {
+   padding-left: 10px;
+   padding-right:10px; 
+   color: white;
+   font-size: 15px;
+   font-family:PoeRedcoatNew;
+   letter-spacing: 1.5px;
+   word-spacing: 3.5px;
+}
+.card-h{
+   padding-left: 10px;
+   color: white;
+   font-size: 30px;
+   font-family:PoeRedcoatNewBold;
+   
+}
+.cart2{
+   background-image: url('Cart-wal3.jpg')
+}
+.crime{
+   width: 100%;
+   height: auto;
+}
+.cart3{
+   background-image: url('Cart-wal6.jpg');
+   width: auto;
+   height: 100%;
+   background-size: 100% 100%;
+}
+.coc-img,
+.pvz2{
+   height: 150px;
+}
+.cart4{
+   background-image: url('Cart-wal7.jpg');
+   background-size: 100% 100%;
+}
+.Contact{
+   text-decoration: none;
+   color: rebeccapurple;
+}
+.Contact:hover,
+.contact:active{
+   color: purple;
+   cursor: pointer;
+}
+.Contact1{
+   text-decoration: none;
+   color: #2196f3;
+   cursor: pointer;
+}
+.contact1:active,
+.Contact1:hover{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80 #2196f3;
+   transition-delay: 0.5s;
+   cursor: pointer;
+}
+.message{
+   background-color: black;
+   color: transparent;
+   font-size: 0px;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+.nav{
+   text-decoration: none;
+   color: white;
+   cursor: pointer;
+}
+.nav:hover,
+.nav:active{
+   color: orange;
+   cursor: pointer;
+}
+@media only screen and (max-width: 800px) {
+  .ss {
+    background-color: blue;
+    display: none;
+    
+  }
+}
+@media only screen and (max-width: 980px) {
+  .message {
+    color: transparent;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .message {
+    
+    font-size:50px;
+    color: red;
+    text-align: center;
+    transform: capitalize;
+    padding: 20px;
+    font-family: FrostbiteBossFight;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    
+  }
+}
